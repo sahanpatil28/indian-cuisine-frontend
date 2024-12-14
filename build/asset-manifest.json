@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/indian-cuisine/static/css/main.d14f3c7e.css",
+    "main.js": "/indian-cuisine/static/js/main.fa6c61cf.js",
+    "index.html": "/indian-cuisine/index.html",
+    "main.d14f3c7e.css.map": "/indian-cuisine/static/css/main.d14f3c7e.css.map",
+    "main.fa6c61cf.js.map": "/indian-cuisine/static/js/main.fa6c61cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d14f3c7e.css",
+    "static/js/main.fa6c61cf.js"
+  ]
+}
