@@ -6,7 +6,9 @@ const DishDetails = () => {
   const [dish, setDish] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/dishes/${name}`) // Replace with your actual API endpoint
+    const trimmedName = name.trim();
+    fetch(`${process.env.REACT_APP_API_URL}/dishes/${encodeURIComponent(trimmedName)}`)
+    // Replace with your actual API endpoint
       .then((response) => response.json())
       .then((data) => setDish(data));
   }, [name]);

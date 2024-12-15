@@ -20,6 +20,7 @@ const DishList = () => {
 
   // Handle filtering by search term
   useEffect(() => {
+    fetch(`${process.env.REACT_APP_API_URL}/dishes`)
     const results = dishes.filter(
       (dish) =>
         dish.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
