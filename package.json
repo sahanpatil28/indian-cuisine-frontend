@@ -3,17 +3,16 @@
   "version": "1.0.0",
   "description": "Frontend for Indian Cuisine app",
   "main": "index.js",
-  "homepage": "https://sahanpatil28.github.io/indian-cuisine",
 
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
+
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+ 
+},
+
   "dependencies": {
     "@fluentui/react": "^8.122.1",
     "react": "^17.0.2",

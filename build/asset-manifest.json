@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/indian-cuisine/static/css/main.d14f3c7e.css",
-    "main.js": "/indian-cuisine/static/js/main.fa6c61cf.js",
+    "main.js": "/indian-cuisine/static/js/main.eecf092b.js",
     "index.html": "/indian-cuisine/index.html",
     "main.d14f3c7e.css.map": "/indian-cuisine/static/css/main.d14f3c7e.css.map",
-    "main.fa6c61cf.js.map": "/indian-cuisine/static/js/main.fa6c61cf.js.map"
+    "main.eecf092b.js.map": "/indian-cuisine/static/js/main.eecf092b.js.map"
   },
   "entrypoints": [
     "static/css/main.d14f3c7e.css",
-    "static/js/main.fa6c61cf.js"
+    "static/js/main.eecf092b.js"
   ]
 }
